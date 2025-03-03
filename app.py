@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 # MongoDB Configuration
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb://harshilgajipara5:oIJmvmuEt0KJQIiV@localhost:27017/?authSource=admin"
 client = MongoClient(MONGO_URI)
 db = client['mydatabase']  # Database name
 users_collection = db['users']  # Collection name
